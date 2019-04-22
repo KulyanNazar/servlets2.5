@@ -15,8 +15,8 @@ public class SomeServlet extends HttpServlet {
         String value = req.getParameter("mainInput");
         Cookie cookie = new Cookie("input",value);
         resp.addCookie(cookie);
-        HttpSession httpSession = req.getSession();
-        httpSession.setAttribute("input",value);
+        HttpSession session = req.getSession();
+        session.setAttribute("text",value);
         doGet(req,resp);
     }
 }

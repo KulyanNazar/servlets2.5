@@ -12,6 +12,6 @@
 </head>
 <body>
     <h1>Home</h1>
-    <a href="/unnamed/some">some</a>
+    <a href="/some">some</a>
 </body>
 </html>

@@ -11,9 +11,11 @@
     <title>Title</title>
 </head>
 <body>
+    <a href="/home">back</a>
     <form name="form" method="post">
         <input type="text" name="mainInput" id="mainInput">
         <button type="submit">send</button>
     </form>
+    <h1>Previous result:${sessionScope.get("text")}</h1>
 </body>
 </html>
